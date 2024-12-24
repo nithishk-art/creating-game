@@ -5,7 +5,7 @@ import Result from './result';
      
 function App() {
   const[term,setTerm]=useState("")
-  const handleChange=(event)=>{
+  const exchangehandler=(event)=>{
            setTerm(event.target.value)
   }
   return (
