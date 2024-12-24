@@ -1,9 +1,7 @@
 import React from "react";
-
 function Result({term,secertNum}) {
     let result;
     
-
     if(term) {
       if(term > secertNum) {
         result ='Higher';
